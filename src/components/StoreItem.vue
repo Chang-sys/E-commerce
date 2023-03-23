@@ -212,6 +212,6 @@
 <script>
 export default {
     name: 'StoreItem',
-    items: ['name', 'price', 'weight', 'src'],
+    props: ['name', 'price', 'weight', 'src'],
 }
 </script>
