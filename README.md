@@ -1,4 +1,4 @@
-# shoestore
+# Fruits and Vegatables Marketplace
 
 This template should help get you started developing with Vue 3 in Vite.
 
@@ -27,3 +27,17 @@ npm run dev
 ```sh
 npm run build
 ```
+
+### For Api
+Before running need go to folder server-api.
+
+### Project Setup api
+```sh
+npm install
+```
+### Compile to server api 
+```sh
+npm run start:watch
+```
+
+Thank you for choosing our online market, have a nice days :)

@@ -1,0 +1,74 @@
+[
+    {
+        "imgeUrl": "https://templates.hibootstrap.com/hilo/default/assets/images/inner-banner/inner-banner7.png",
+        "name": "Water Melon",
+        "weight": "3",
+        "price": "3.50"
+    },
+    {
+        "imgeUrl": "https://templates.hibootstrap.com/hilo/default/assets/images/trending-img/trending-img4.png",
+        "name": "Pipe Apple",
+        "weight": "2",
+        "price": "2.50"
+    },
+    {
+        "imgeUrl": "https://templates.hibootstrap.com/hilo/default/assets/images/new-arrival-img/new-arrival-3.png",
+        "name": "Black Berry",
+        "weight": "1",
+        "price": "5.00"
+    },
+    {
+        "imgeUrl": "https://gcdnb.pbrd.co/images/QcFjfCsrF8jR.png",
+        "name": "Orange",
+        "weight": "1",
+        "price": "3.50"
+    },
+    {
+        "imgeUrl": "https://templates.hibootstrap.com/hilo/default/assets/images/new-arrival-img/new-arrival-6.png",
+        "name": "Banana",
+        "weight": "1",
+        "price": "2.50"
+    },
+    {
+        "imgeUrl": "https://templates.hibootstrap.com/hilo/default/assets/images/products/products-img3.png",
+        "name": "Cucumber",
+        "weight": "1",
+        "price": "0.75"
+    },
+    {
+        "imgeUrl": "https://templates.hibootstrap.com/hilo/default/assets/images/products/products-img2.png",
+        "name": "Carrot",
+        "weight": "1",
+        "price": "1"
+    },
+    {
+        "imgeUrl": "https://templates.hibootstrap.com/hilo/default/assets/images/new-arrival-img/new-arrival-1.png",
+        "name": "Capsicum",
+        "weight": "1",
+        "price": "3.00"
+    },
+    {
+        "imgeUrl": "https://www.ocsolutions.co.in/html/organic_food/images/header3/7.png",
+        "name": "Kiwi",
+        "weight": "1",
+        "price": "8.00"
+    },
+    {
+        "imgeUrl": "https://templates.hibootstrap.com/hilo/default/assets/images/latest-product/latest-product7.png",
+        "name": "Tomamto",
+        "weight": "1",
+        "price": "2.00"
+    },
+    {
+        "imgeUrl": "https://templates.hibootstrap.com/hilo/default/assets/images/latest-product/latest-product6.png",
+        "name": "Garpe",
+        "weight": "1",
+        "price": "10.00"
+    },
+    {
+        "imgeUrl": "https://templates.hibootstrap.com/hilo/default/assets/images/latest-product/latest-product2.png",
+        "name": "Apple",
+        "weight": "1",
+        "price": "6.00"
+    }
+]

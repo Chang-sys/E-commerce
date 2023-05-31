@@ -1,7 +1,5 @@
 
 <template>
-  <!-- <HomeView /> -->
-
   <RouterView />
 </template>
 
