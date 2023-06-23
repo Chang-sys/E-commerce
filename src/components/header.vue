@@ -25,11 +25,11 @@
             </div>
 
             <div class="flex w-4/12 justify-between m-1">
-                <a href="http://localhost:5173/Testimonial"
+                <a href="/Testimonial"
                     class="hover:text-green-500 hover:duration-300 w-[50px] h-[50px] flex justify-center items-center font-bold">Home</a>
-                <a href="http://localhost:5173/page_shop"
+                <a href="/page_shop"
                     class="hover:text-green-500 hover:duration-300 w-[50px] h-[50px] flex justify-center items-center font-bold">Page</a>
-                <a href="http://localhost:5173/page_shop"
+                <a href="/page_shop"
                     class="hover:text-green-500 hover:duration-300 w-[50px] h-[50px] flex justify-center items-center font-bold">Shop</a>
                 <a
                     class="hover:text-green-500 hover:duration-300 w-[50px] h-[50px] flex justify-center items-center font-bold">Blog</a>

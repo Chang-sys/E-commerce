@@ -9,13 +9,13 @@ export default {
 <template>
     <div class="w-full h-fit">
         <div class="ml-[150px] flex gap-[100px] items-center text-xl font bold text-center">
-            <a href="http://localhost:5173/" class="no-underline">Home</a>
+            <a href="/" class="no-underline">Home</a>
             <a href="#">About</a>
-            <a href="http://localhost:5173/page_shop">Page</a>
+            <a href="/page_shop">Page</a>
             <div class="w-[15%] h-[70px] bg-[#80B435] text-center text-5xl">
                 <p class="pt-2 pr-1.5 text-white font-blenda">Fruito</p>
             </div>
-            <a href="http://localhost:5173/page_shop">Shop</a>
+            <a href="/page_shop">Shop</a>
             <a href="#">Contact</a>
 
             <div class="flex items-center gap[20px]">
