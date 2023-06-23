@@ -2,7 +2,7 @@
 export default {
     name: 'Feature',
 }
-</script>
+</script>   
 
 <template>
     <!-- Daily deals start here -->
