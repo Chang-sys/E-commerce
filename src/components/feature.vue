@@ -47,7 +47,7 @@
             
             <!-- FEATURE_4 -->
             <div
-                class="top-[960px] left-[680px] w-[32%] h-[250px] bg-[#F8EFDE] mt-5 border-2 border-Orange-200 rounded-br-[120px] flex flex-row itemsi-center justify-between absolute">
+                class="top-[950px] left-[695px] w-[32%] h-[250px] bg-[#F8EFDE] mt-5 border-2 border-Orange-200 rounded-br-[120px] flex flex-row itemsi-center justify-between absolute">
                 <div class="w-fit h-fit">
                     <img src="../img/chilliPapper.png" class="w-[400px] h-[230px]">
                 </div>

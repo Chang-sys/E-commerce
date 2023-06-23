@@ -1,8 +1,8 @@
 <template>
     <div class="h-fit">
         <div class="h-fit bg-[#D9D9D9] flex items-center justify-between border-b-2 border-black">
-            <div class="w-[15%] h-[60px] bg-[#80B435] rounded-tr-3xl text-center text-4xl ">
-                <p class="pt-2 pr-1.5 text-white font-blenda">Fruito</p>
+            <div class="w-[15%] h-[60px] bg-[#80B435] rounded-tr-3xl text-center text-4xl">
+                <a href="http://localhost:5173/Testimonial" class="pt-2 pr-1.5 text-white font-blenda">Fruito</a>
             </div>
 
             <div class="w-[100px] h-[60px] flex items-center flex-row mr-7">
@@ -25,18 +25,18 @@
             </div>
 
             <div class="flex w-4/12 justify-between m-1">
-                <button
-                    class="hover:text-green-500 hover:duration-300 w-[50px] h-[50px] flex justify-center items-center font-bold">Home</button>
-                <button
-                    class="hover:text-green-500 hover:duration-300 w-[50px] h-[50px] flex justify-center items-center font-bold">Page</button>
-                <button
-                    class="hover:text-green-500 hover:duration-300 w-[50px] h-[50px] flex justify-center items-center font-bold">Shop</button>
-                <button
-                    class="hover:text-green-500 hover:duration-300 w-[50px] h-[50px] flex justify-center items-center font-bold">Blog</button>
-                <button
-                    class="hover:text-green-500 hover:duration-300 w-[50px] h-[50px] flex justify-center items-center font-bold">About</button>
-                <button
-                    class="hover:text-green-500 hover:duration-300 w-[50px] h-[50px] flex justify-center items-center font-bold">Contact</button>
+                <a href="http://localhost:5173/Testimonial"
+                    class="hover:text-green-500 hover:duration-300 w-[50px] h-[50px] flex justify-center items-center font-bold">Home</a>
+                <a href="http://localhost:5173/page_shop"
+                    class="hover:text-green-500 hover:duration-300 w-[50px] h-[50px] flex justify-center items-center font-bold">Page</a>
+                <a href="http://localhost:5173/page_shop"
+                    class="hover:text-green-500 hover:duration-300 w-[50px] h-[50px] flex justify-center items-center font-bold">Shop</a>
+                <a
+                    class="hover:text-green-500 hover:duration-300 w-[50px] h-[50px] flex justify-center items-center font-bold">Blog</a>
+                <a
+                    class="hover:text-green-500 hover:duration-300 w-[50px] h-[50px] flex justify-center items-center font-bold">About</a>
+                <a
+                    class="hover:text-green-500 hover:duration-300 w-[50px] h-[50px] flex justify-center items-center font-bold">Contact</a>
             </div>
 
             <img src="../img/woman.png" class="w-[600px] h-[580px] absolute right-1 z-10">

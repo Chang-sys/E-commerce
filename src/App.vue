@@ -6,11 +6,13 @@
 <script>
 import { RouterLink, RouterView } from 'vue-router'
 import HomeView from './views/HomeView.vue'
+import TestimonialView from './views/TestimonialView.vue'
 
 export default {
   name: "App",
   components: {
     HomeView,
+    TestimonialView,
   }
 }
 </script>

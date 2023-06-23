@@ -9,7 +9,7 @@
     "start:watch": "nodemon npm run start"
   },
   "keywords": [],
-  "author": "",
+  "author": "ChhengChang",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
