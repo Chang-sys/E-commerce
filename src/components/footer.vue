@@ -9,7 +9,7 @@
 
             <div class="w-[90%] h-fit flex flex-col p-1 text-center text-gray-500">
                 <div class="flex flex-row m-1">
-                    <img src="../components/icons/homeAddress.png" class="w-[32px] h-[32px]">
+                    <img src="../img/home.png" class="w-[32px] h-[32px]">
                     <p class="text-sm pt-1.5 pl-6">Home address</p>
                 </div>
 
