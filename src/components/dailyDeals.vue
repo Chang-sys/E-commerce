@@ -21,8 +21,8 @@ export default {
 
                 <!-- item start here -->
                 <div class="w-fit text-center flex flex-col">
-                    <div class="w-full h-[275px] border border-black mb-6">
-                        <img class="w-[300px] h-[250px] hover:shadow-lg shadow-gray-600/40" src="../img/apple.png" alt="">
+                    <div class="w-full h-[275px] border border-black mb-6"> 
+                        <img class="w-[300px] h-[250px]" src="../img/apple.png" alt="">
                         <button class="w-fit mb-2 rounded-full hover:shadow-lg shadow-gray-600/40"><img
                                 class="w-[40px] h-[40px]" src="../img/basket.png" alt=""></button>
                     </div>
@@ -40,7 +40,7 @@ export default {
 
                 <div class="w-fit text-center flex flex-col">
                     <div class="w-full h-[275px] border border-black mb-6">
-                        <img class="w-[300px] h-[250px] hover:shadow-lg shadow-gray-600/40" src="../img/Avocado.jpg" alt="">
+                        <img class="w-[300px] h-[250px]" src="../img/Avocado.jpg" alt="">
                         <button class="w-fit mb-2 rounded-full hover:shadow-lg shadow-gray-600/40"><img
                                 class="w-[40px] h-[40px]" src="../img/basket.png" alt=""></button>
                     </div>
@@ -58,7 +58,7 @@ export default {
 
                 <div class="w-fit text-center flex flex-col">
                     <div class="w-full h-[275px] border border-black mb-6">
-                        <img class="w-[300px] h-[250px] hover:shadow-lg shadow-gray-600/40" src="../img/orange_.png" alt="">
+                        <img class="w-[300px] h-[250px]" src="../img/orange_.png" alt="">
                         <button class="w-fit mb-2 rounded-full hover:shadow-lg shadow-gray-600/40"><img
                                 class="w-[40px] h-[40px]" src="../img/basket.png" alt=""></button>
                     </div>
@@ -75,7 +75,7 @@ export default {
                 </div>
 
                 <div class="w-[306px] h-[100px] flex flex-row">
-                    <img class="w-[120px] h-[100px] border border-black hover:shadow-lg shadow-gray-600/40"
+                    <img class="w-[120px] h-[100px] border border-black"
                         src="../img/vav.png" alt="">
 
                     <div class="w-full flex flex-col ml-[20px]">
@@ -91,7 +91,7 @@ export default {
                 </div>
 
                 <div class="w-[306px] h-[100px] flex flex-row">
-                    <img class="w-[120px] h-[100px] border border-black hover:shadow-lg shadow-gray-600/40"
+                    <img class="w-[120px] h-[100px] border border-black"
                         src="../img/carrot.png" alt="">
 
                     <div class="w-full flex flex-col ml-[20px]">
@@ -107,7 +107,7 @@ export default {
                 </div>
 
                 <div class="w-[306px] h-[100px] flex flex-row">
-                    <img class="w-[120px] h-[100px] border border-black hover:shadow-lg shadow-gray-600/40"
+                    <img class="w-[120px] h-[100px] border border-black"
                         src="../img/cucumber.png" alt="">
 
                     <div class="w-full flex flex-col ml-[20px]">

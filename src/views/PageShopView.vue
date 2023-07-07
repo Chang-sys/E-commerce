@@ -1,10 +1,12 @@
 <template>
     <Headers />
+    <sellItem />
     <Footers />
 </template>
 
 <script>
-import Headers from '../components/headers.vue'
+import Headers from '../components/headers.vue';
+import sellItem from '../components/sellItem.vue';
 import Footers from '../components/footers.vue';
 
 export default{
@@ -12,6 +14,7 @@ export default{
 
     components: {
         Headers,
+        sellItem,
         Footers,
     },
 }

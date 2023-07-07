@@ -3,7 +3,7 @@
 
         <div class="w-[20%] h-fit p-4 flex flex-col justify-between">
             <div class="w-[70%] h-[40px] bg-[#80B435] rounded-full text-center text-xl ">
-                <button class="pt-1 pr-0.5 text-white">Fruito</button>
+                <a :href="'/'" class="pt-1 pr-0.5 text-white">Fruito</a>
             </div>
             <p class="w-[90%] p-1 text-gray-500">We are one of the best & quality full in market. Let's join.</p>
 
