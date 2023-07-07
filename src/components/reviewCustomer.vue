@@ -6,6 +6,14 @@ export default {
 </script>
 
 <template>
+    <div class="w-full h-fit flex flex-col justify-center items-center">
+        <div class="w-full bg-wrapper text-center">
+            <h1 class="pt-3 text-4xl font-bold text-orange-400 ml-3">Fruito <span
+                    class="text-4xl font-bold text-black">TESTIMONIAL</span></h1>
+            <h3 class="mt-2 text-3xl font-medium ml-3">HOME<span>/TESTIMONIAL</span></h3>
+        </div>
+    </div>
+
     <div class="mt-3 ml-[330px] flex item-center gap-[20px] text-center text-6xl font-bold">
         <img class="w-[56px] h-[56px]" src="../img/star.png" alt="#">
         <img class="w-[56px] h-[56px]" src="../img/star.png" alt="#">
@@ -35,3 +43,12 @@ export default {
     </div>
     <!-- TESTIMONIAL end here -->
 </template>
+
+<style>
+.bg-wrapper {
+    min-height: 190px;
+    background: url('../img/banner.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+</style>

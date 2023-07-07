@@ -46,6 +46,14 @@ export default {
 </script>
 
 <template>
+    <div class="w-full h-fit flex flex-col justify-center items-center">
+        <div class="w-full bg-wrapper text-center">
+            <h1 class="pt-3 text-4xl font-bold text-orange-400 ml-3">Fruito <span
+                    class="text-4xl font-bold text-black">SHOP</span></h1>
+            <h3 class="mt-2 text-3xl font-medium ml-3">HOME<span>/SHOP</span></h3>
+        </div>
+    </div>
+
     <div class="w-full h-fit flex flex-row mt-6 gap-6">
         <!-- left-content start here -->
         <div class="w-[30%] h-fit flex flex-col ml-6">
@@ -57,11 +65,7 @@ export default {
 
                 <div class="m-3 p-1 rounded-lg">
                     <button type="button" class="">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="#80B435" class="h-9 w-9">
-                            <path fill-rule="evenodd"
-                                d="M9 3.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM2 9a7 7 0 1112.452 4.391l3.328 3.329a.75.75 0 11-1.06 1.06l-3.329-3.328A7 7 0 012 9z"
-                                clip-rule="evenodd" />
-                        </svg>
+                        <img src="../img/find.png" alt="findIcon">
                     </button>
                 </div>
             </div>
@@ -107,6 +111,7 @@ export default {
         </div>
         <!-- left-content end here -->
 
+        <!-- right content start here -->
         <div class="w-full border border-black mr-4">
             <div class="grid grid-cols-2 gap-4 py-3 pl-3">
                 <div class="p-2 w-[410px] h-[410px]"><img src="../img/Avocado.jpg" alt=""></div>
@@ -160,7 +165,6 @@ export default {
                 </div>
                 <div class="flex justify-center gap-3">
                     <button @click="showPreviousImage"><img class="w-[56px] h-[56px]" src="../img/back.png" alt=""></button>
-                    <!-- <div ref="imageContainer" class="flex space-x-4"></div>] -->
                     <button class="w-[158px] h-[158px] border border-balck p-3">
                         <div class="flex space-x-4">
                             <img :src="currentImage" alt="Image" />
@@ -170,5 +174,81 @@ export default {
                 </div>
             </div>
         </div>
+        <!-- right content end here -->
     </div>
+
+    <!-- relative product start here -->
+    <div class="flex flex-col ml-3 mt-6">
+        <!-- title -->
+        <p class="text-4xl font-bold mb-6">Relative Product</p>
+
+        <!-- item start here -->
+        <div class="ml-[290px] w-[70%] h-fit grid grid-cols-3 gap-6 pl-12 justify-items-center content-center">
+            <div class="w-11/12 border-2 border-black p-2 flex flex-col items-center justify-center">
+                <img src="../img/waterMelon.png" alt="WaterMelon" class="h-[231px]">
+                <h1 class="text-2xl font-bold mb-2">Water Melon</h1>
+                <p class="text-lg text-[#808080] font-bold mb-1">Weight: 1 kg</p>
+                <p class="text-xl text-[#319B77] font-bold mb-1">$ 20.00</p>
+
+                <div class="w-[70%] h-fit flex flex-row text-center items-center justify-between mb-1">
+                    <button class="w-[26px] h-[28px] text-normal border-2 border-black text-center">-</button>
+                    <p class="text-xl font-bold">0</p>
+                    <button class="w-[26px] h-[26px] text-normal border-2 border-black text-center">+</button>
+                </div>
+
+                <button class="w-full h-fit m-2 bg-[#319B77] flex flex-row text-center items-center p-1 rounded">
+                    <img class="ml-3" src="../img/shopping-bag.png">
+                    <p class="text-2xl ml-12 text-white font-bold">Add To Cart</p>
+                </button>
+            </div>
+
+            <div class="w-11/12 border-2 border-black p-2 flex flex-col items-center justify-center">
+                <img src="../img/baba.png" alt="WaterMelon" class="h-[231px]">
+                <h1 class="text-2xl font-bold mb-2">Baba</h1>
+                <p class="text-lg text-[#808080] font-bold mb-1">Weight: 1 kg</p>
+                <p class="text-xl text-[#319B77] font-bold mb-1">$ 20.00</p>
+
+                <div class="w-[70%] h-fit flex flex-row text-center items-center justify-between mb-1">
+                    <button class="w-[25px] h-[26px] text-normal border-2 border-black text-center">-</button>
+                    <p class="text-xl font-bold">0</p>
+                    <button class="w-[25px] h-[26px] text-normal border-2 border-black text-center">+</button>
+                </div>
+
+                <button class="w-full h-fit m-2 bg-[#319B77] flex flex-row text-center items-center p-1 rounded">
+                    <img class="ml-3" src="../img/shopping-bag.png">
+                    <p class="text-2xl ml-12 text-white font-bold">Add To Cart</p>
+                </button>
+            </div>
+
+            <div class="w-11/12 border-2 border-black p-2 flex flex-col items-center justify-center">
+                <img src="../img/apple.png" alt="WaterMelon" class="h-[231px] w-[230px]">
+                <h1 class="text-2xl font-bold mb-2">Apple</h1>
+                <p class="text-lg text-[#808080] font-bold mb-1">Weight: 1 kg</p>
+                <p class="text-xl text-[#319B77] font-bold mb-1">$ 20.00</p>
+
+                <div class="w-[70%] h-fit flex flex-row text-center items-center justify-between mb-1">
+                    <button class="w-[25px] h-[26px] text-normal border-2 border-black text-center">-</button>
+                    <p class="text-xl font-bold">0</p>
+                    <button class="w-[25px] h-[26px] text-normal border-2 border-black text-center">+</button>
+                </div>
+
+                <button class="w-full h-fit m-2 bg-[#319B77] flex flex-row text-center items-center p-1 rounded">
+                    <img class="ml-3" src="../img/shopping-bag.png">
+                    <p class="text-2xl ml-12 text-white font-bold">Add To Cart</p>
+                </button>
+            </div>
+
+        </div>
+        <!-- item end here -->
+    </div>
+    <!-- relative product end here -->
 </template>
+
+<style>
+.bg-wrapper {
+    min-height: 190px;
+    background: url('../img/banner.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+</style>

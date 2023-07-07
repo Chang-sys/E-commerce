@@ -33,7 +33,7 @@
                     class="hover:text-green-500 hover:duration-300 w-[50px] h-[50px] flex justify-center items-center font-bold">Shop</a>
                 <a
                     class="hover:text-green-500 hover:duration-300 w-[50px] h-[50px] flex justify-center items-center font-bold">Blog</a>
-                <a
+                <a :href="'/aboutus'"
                     class="hover:text-green-500 hover:duration-300 w-[50px] h-[50px] flex justify-center items-center font-bold">About</a>
                 <a
                     class="hover:text-green-500 hover:duration-300 w-[50px] h-[50px] flex justify-center items-center font-bold">Contact</a>

@@ -7,7 +7,7 @@ export default {
 <template>
     <footer class="w-full flex flex-row gap-10 bg-gray-500 p-6 mt-3">
         <div class="w-4/12 flex flex-col gap-5 font-bold">
-            <a :href="'/'" class="w-[200px] h-20 pb-2 text-5xl text-white bg-green-500 rounded-full">
+            <a :href="'/'" class="w-[200px] h-20 pb-2 text-5xl text-white bg-green-500 rounded-full text-center pt-3">
                 Fruito
             </a>
 
