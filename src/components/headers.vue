@@ -16,7 +16,7 @@ export default {
                 <a :href="'/'" class="pt-2 pr-1.5 text-white font-blenda">Fruito</a>
             </div>
             <a :href="'/page_shop'">Shop</a>
-            <a :href="'#''">Contact</a>
+            <a :href="'#'">Contact</a>
 
             <div class="flex items-center gap[20px]">
                 <button class="w-[56px] h-[56px]"><img src="../img/findIcon.png" alt=""></button>
