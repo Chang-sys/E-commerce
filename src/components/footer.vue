@@ -1,9 +1,10 @@
+<!-- <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet"></link> -->
 <template>
     <div class="h-fit border-t-2 mt-3 border-black flex flex-row">
 
         <div class="w-[20%] h-fit p-4 flex flex-col justify-between">
             <div class="w-[70%] h-[40px] bg-[#80B435] rounded-full text-center text-xl ">
-                <a :href="'/'" class="pt-1 pr-0.5 text-white">Fruito</a>
+                <a :href="'/'" class="pt-3 pr-0.5 text-white font-lobster text-3xl">FruiTo</a>
             </div>
             <p class="w-[90%] p-1 text-gray-500">We are one of the best & quality full in market. Let's join.</p>
 
@@ -93,6 +94,8 @@
 </template>
 
 <script>
+
+
 export default {
     name: 'Footer',
 }

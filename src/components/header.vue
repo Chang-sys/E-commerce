@@ -1,13 +1,13 @@
 <template>
     <div class="h-fit">
         <div class="h-fit bg-[#D9D9D9] flex items-center justify-between border-b-2 border-black">
-            <div class="w-[15%] h-[60px] bg-[#80B435] rounded-tr-3xl text-center text-4xl">
-                <a href="/" class="pt-2 pr-1.5 text-white font-blenda">Fruito</a>
+            <div class="w-[15%] h-[60px] bg-[#80B435] pt-1.5 rounded-tr-3xl text-center text-4xl">
+                <a href="/" class="text-white font-lobster font-bold text-5xl">FruiTo</a>
             </div>
 
             <div class="w-[100px] h-[60px] flex items-center flex-row mr-7">
-                <button><img src="./icons/avatar.png" alt=""></button>
-                <button><img src="./icons/add-to-cart.png" alt=""></button>
+                <button class="w-[128px] h-[128px] mr-3"><img src="./icons/avatar.png" alt=""></button>
+                <button class="w-[128px] h-[128px]"><img src="./icons/add-to-cart.png" alt=""></button>
             </div>
         </div>
 

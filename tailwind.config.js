@@ -10,10 +10,10 @@ module.exports = {
         customGreen: '#80B435',
         Gray: '#D9D9D9',
       },
+      fontFamily: {
+        lobster: ['"Blenda Script"', 'cursive'],
+      },
     },
-  },
-  fontFamily: {
-    blenda: ["BLENDA", "lobster"],
   },
   plugins: [],
 }
