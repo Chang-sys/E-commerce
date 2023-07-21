@@ -1,13 +1,15 @@
+<script setup>
+import orange from '../assets/img/orange_.png';
+import baba from '../assets/img/baba.png';
+import kiwi from '../assets/img/kiwi.png';
+import grape from '../assets/img/grape.png';
+import banana from '../assets/img/banana.png';
+import pipeApple from '../assets/img/pipeAplle.png';
+import berry from '../assets/img/berry.png';
+
+</script>
+
 <script>
-import orange from '@/img/orange_.png'
-import baba from '@/img/baba.png'
-import kiwi from '@/img/kiwi.png'
-import grape from '@/img/grape.png'
-import banana from '@/img/banana.png'
-import pipeApple from '@/img/pipeAplle.png'
-import berry from '@/img/berry.png'
-
-
 export default {
     name: 'sellItem',
     data() {
@@ -21,7 +23,9 @@ export default {
                 pipeApple,
                 berry
             ],
-            currentIndex: 0
+            currentIndex: 0,
+            counter: 0,
+            popUpCart: false,
         };
     },
     computed: {
@@ -30,6 +34,19 @@ export default {
         }
     },
     methods: {
+        increment() {
+            this.counter++;
+            console.log(this.counter);
+        },
+        decrement() {
+            if (this.counter > 0) {
+                this.counter--;
+                console.log(this.counter);
+            }
+        },
+        showImage(index) {
+            this.currentImage = this.images[index];
+        },
         showNextImage() {
             this.currentIndex = (this.currentIndex + 1) % this.images.length;
             this.showImage(this.currentIndex);
@@ -37,15 +54,46 @@ export default {
         showPreviousImage() {
             this.currentIndex = (this.currentIndex - 1 + this.images.length) % this.images.length;
             this.showImage(this.currentIndex);
-        }
+        },
+        toggleCart() {
+            this.popUpCart = !this.popUpCart;
+        },
+        closeCart(event) {
+            // Check if the click occurred outside the popup element
+            if (!this.$el.contains(event.target)) {
+                this.popUpCart = false;
+            }
+        },
+
     },
     mounted() {
         this.showImage(this.currentIndex);
-    }
-}
+    },
+};
 </script>
 
 <template>
+    <!-- My popup cart -->
+    <div v-if="popUpCart" @click="closeCart" class="w-[400px] relative bg-white">
+        <div class="left-[1090px] bg-white border border-balck rounded-2xl flex flex-col absolute w-full h-fit p-3">
+            <p class="text-xl font-bold">Item Added To Cart</p>
+            <div class="w-full h-[2px] bg-black mt-1"></div>
+
+            <div class="flex flex-col bg-gray-200 w-full mt-2 p-2 rounded-lg font-medium">
+                <p>Avocado</p>
+                <p>Qty: <span>1</span> - $ <span>15.00</span></p>
+            </div>
+
+            <div class="flex flex-row mt-8 font-medium text-gray-600 text-lg text-center">
+                <button @click="routeToCart" class="w-[50%] h-12 bg-gray-200 hover:bg-customGreen hover:text-white border rounded-l-lg">View
+                    Cart</button>
+                <button @click="routeToCart"
+                    class="w-[50%] h-12 bg-gray-200 hover:bg-customGreen hover:text-white border rounded-r-lg">Checkout</button>
+            </div>
+        </div>
+    </div>
+
+
     <div class="w-full h-fit flex flex-col justify-center items-center">
         <div class="w-full bg-wrapper text-center">
             <h1 class="pt-3 text-4xl font-bold text-orange-400 ml-3">Fruito <span
@@ -65,7 +113,7 @@ export default {
 
                 <div class="m-3 p-1 rounded-lg">
                     <button type="button" class="">
-                        <img src="../img/find.png" alt="findIcon">
+                        <img src="../assets/img/find.png" alt="findIcon">
                     </button>
                 </div>
             </div>
@@ -114,16 +162,16 @@ export default {
         <!-- right content start here -->
         <div class="w-full border border-black mr-4">
             <div class="grid grid-cols-2 gap-4 py-3 pl-3">
-                <div class="p-2 w-[410px] h-[410px]"><img src="../img/Avocado.jpg" alt=""></div>
+                <div class="p-2 w-[410px] h-[410px]"><img src="../assets/img/Avocado.jpg" alt=""></div>
                 <div class="flex flex-col h-[400px]">
                     <p class="h-[60px] text-[45px] font-bold">Avocado</p>
                     <p class="text-[35px] text-green-600">$<span>15.00</span></p>
                     <div class="flex flex-row">
-                        <img class="w-8" src="../img/star_1.png" alt="ratingStar">
-                        <img class="w-8" src="../img/star_1.png" alt="ratingStar">
-                        <img class="w-8" src="../img/star_1.png" alt="ratingStar">
-                        <img class="w-8" src="../img/star_1.png" alt="ratingStar">
-                        <img class="w-8" src="../img/star_1_1.png" alt="ratingStar">
+                        <img class="w-8" src="../assets/img/star_1.png" alt="ratingStar">
+                        <img class="w-8" src="../assets/img/star_1.png" alt="ratingStar">
+                        <img class="w-8" src="../assets/img/star_1.png" alt="ratingStar">
+                        <img class="w-8" src="../assets/img/star_1.png" alt="ratingStar">
+                        <img class="w-8" src="../assets/img/star_1_1.png" alt="ratingStar">
                     </div>
                     <p class="w-[350px] text-base font-semibold mt-3 mb-3 ">Lorem ipsum dolor sit amet, consectetur
                         adipiscing elit, sed do
@@ -133,16 +181,22 @@ export default {
 
                     <div class="flex flex-row gap-3 items-center">
                         <div class="flex flex-row p-2 items-center justfy-center border-2 border-black rounded-2xl">
-                            <img class="w-[48px] h-[48px]" src="../img/minus.png" alt="minus-bottn">
-                            <p class="text-4xl px-5 font-bold">1</p>
-                            <img class="w-[48px] h-[48px]" src="../img/add.png" alt="add-bottn">
+                            <button @click="decrement"><img class="w-[48px] h-[48px]" src="../assets/img/minus.png"
+                                    alt="minus-bottn"></button>
+                            <p class="text-4xl px-5 font-bold"> {{ counter }} <span
+                                    class="text-xl font-thin text-gray-400">kg</span> </p>
+                            <!-- <p class="text-4xl px-5 font-bold" v-text="counter"></p> -->
+                            <button @click="increment"><img class="w-[48px] h-[48px]" src="../assets/img/add.png"
+                                    alt="add-bottn"></button>
                         </div>
 
                         <div class="px-2 ">
-                            <button class="w-36 h-16 p-3 text-xl text-white rounded-3xl bg-customGreen" type="">ADD
+                            <button @click="toggleCart"
+                                class="w-36 h-16 p-3 text-xl text-white rounded-3xl bg-customGreen hover:bg-orange-500"
+                                type="">ADD
                                 CART</button>
                         </div>
-                        <img class="w-16 h-16" src="../img/like.png" alt="">
+                        <button><img class="w-16 h-16" src="../assets/img/like.png" alt="FavoriteImage"></button>
                     </div>
 
                     <hr class="border-gray-300 mt-8">
@@ -156,21 +210,21 @@ export default {
                     <div class="flex flex-row">
                         <p class="text-2xl text-gray-500 mt-3">Share : &emsp;&emsp;&nbsp;</p>
                         <a :href="'https://www.facebook.com/'" target="_blank"><img class="w-[46px] h-[46px]"
-                                src="../img/facebook_1.png" alt="facbookLogo"></a>
+                                src="../assets/img/facebook_1.png" alt="facbookLogo"></a>
                         <a :href="'https://twitter.com/i/flow/single_sign_on'" target="_blank" class="mt-2.5"><img
-                                class="w-[46px] h-[46px]" src="../img/twitter_1.png" alt="TwitterLogo"></a>
+                                class="w-[46px] h-[46px]" src="../assets/img/twitter_1.png" alt="TwitterLogo"></a>
                         <a :href="'https://www.instagram.com/accounts/login/'" target="_blank" class="mt-1"><img
-                                class="w-[46px] h-[46px]" src="../img/instagram_1.png" alt="IGLogo"></a>
+                                class="w-[46px] h-[46px]" src="../assets/img/instagram_1.png" alt="IGLogo"></a>
                     </div>
                 </div>
                 <div class="flex justify-center gap-3">
-                    <button @click="showPreviousImage"><img class="w-[56px] h-[56px]" src="../img/back.png" alt=""></button>
+                    <button @click="showPreviousImage"><img class="w-[56px] h-[56px]" src="../assets/img/back.png" alt=""></button>
                     <button class="w-[158px] h-[158px] border border-balck p-3">
                         <div class="flex space-x-4">
                             <img :src="currentImage" alt="Image" />
                         </div>
                     </button>
-                    <button @click="showNextImage"><img class="w-[48px] h-[48px]" src="../img/next.png" alt=""></button>
+                    <button @click="showNextImage"><img class="w-[48px] h-[48px]" src="../assets/img/next.png" alt=""></button>
                 </div>
             </div>
         </div>
@@ -185,25 +239,27 @@ export default {
         <!-- item start here -->
         <div class="ml-[290px] w-[70%] h-fit grid grid-cols-3 gap-6 pl-12 justify-items-center content-center">
             <div class="w-11/12 border-2 border-black p-2 flex flex-col items-center justify-center">
-                <img src="../img/waterMelon.png" alt="WaterMelon" class="h-[231px]">
+                <img src="../assets/img/waterMelon.png" alt="WaterMelon" class="h-[231px]">
                 <h1 class="text-2xl font-bold mb-2">Water Melon</h1>
                 <p class="text-lg text-[#808080] font-bold mb-1">Weight: 1 kg</p>
                 <p class="text-xl text-[#319B77] font-bold mb-1">$ 20.00</p>
 
                 <div class="w-[70%] h-fit flex flex-row text-center items-center justify-between mb-1">
-                    <button class="w-[26px] h-[28px] text-normal border-2 border-black text-center">-</button>
-                    <p class="text-xl font-bold">0</p>
-                    <button class="w-[26px] h-[26px] text-normal border-2 border-black text-center">+</button>
+                    <button @click="decrement"
+                        class="w-[26px] h-[28px] text-normal border-2 border-black text-center">-</button>
+                    <p class="text-xl font-bold"> {{ counter }} <span class="text-xl font-thin text-gray-400">kg</span></p>
+                    <button @click="increment"
+                        class="w-[26px] h-[26px] text-normal border-2 border-black text-center">+</button>
                 </div>
 
                 <button class="w-full h-fit m-2 bg-[#319B77] flex flex-row text-center items-center p-1 rounded">
-                    <img class="ml-3" src="../img/shopping-bag.png">
+                    <img class="ml-3" src="../assets/img/shopping-bag.png">
                     <p class="text-2xl ml-12 text-white font-bold">Add To Cart</p>
                 </button>
             </div>
 
             <div class="w-11/12 border-2 border-black p-2 flex flex-col items-center justify-center">
-                <img src="../img/baba.png" alt="WaterMelon" class="h-[231px]">
+                <img src="../assets/img/baba.png" alt="WaterMelon" class="h-[231px]">
                 <h1 class="text-2xl font-bold mb-2">Baba</h1>
                 <p class="text-lg text-[#808080] font-bold mb-1">Weight: 1 kg</p>
                 <p class="text-xl text-[#319B77] font-bold mb-1">$ 20.00</p>
@@ -215,13 +271,13 @@ export default {
                 </div>
 
                 <button class="w-full h-fit m-2 bg-[#319B77] flex flex-row text-center items-center p-1 rounded">
-                    <img class="ml-3" src="../img/shopping-bag.png">
+                    <img class="ml-3" src="../assets/img/shopping-bag.png">
                     <p class="text-2xl ml-12 text-white font-bold">Add To Cart</p>
                 </button>
             </div>
 
             <div class="w-11/12 border-2 border-black p-2 flex flex-col items-center justify-center">
-                <img src="../img/apple.png" alt="WaterMelon" class="h-[231px] w-[230px]">
+                <img src="../assets/img/apple.png" alt="WaterMelon" class="h-[231px] w-[230px]">
                 <h1 class="text-2xl font-bold mb-2">Apple</h1>
                 <p class="text-lg text-[#808080] font-bold mb-1">Weight: 1 kg</p>
                 <p class="text-xl text-[#319B77] font-bold mb-1">$ 20.00</p>
@@ -233,7 +289,7 @@ export default {
                 </div>
 
                 <button class="w-full h-fit m-2 bg-[#319B77] flex flex-row text-center items-center p-1 rounded">
-                    <img class="ml-3" src="../img/shopping-bag.png">
+                    <img class="ml-3" src="../assets/img/shopping-bag.png">
                     <p class="text-2xl ml-12 text-white font-bold">Add To Cart</p>
                 </button>
             </div>
@@ -247,7 +303,7 @@ export default {
 <style>
 .bg-wrapper {
     min-height: 190px;
-    background: url('../img/banner.jpg') no-repeat;
+    background: url('../assets/img/banner.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }

@@ -13,7 +13,7 @@ export default {
 
         <div class="w-full flex">
             <div class="ml-[100px] mr-10">
-                <img class="w-[250px] h-[570px]" src="../img/freshBanner.png" alt="">
+                <img class="w-[250px] h-[570px]" src="../assets/img/freshBanner.png" alt="">
             </div>
 
             <!-- Product start here -->
@@ -22,15 +22,15 @@ export default {
                 <!-- item start here -->
                 <div class="w-fit text-center flex flex-col">
                     <div class="w-full h-[275px] border border-black mb-6"> 
-                        <img class="w-[300px] h-[250px]" src="../img/apple.png" alt="">
+                        <img class="w-[300px] h-[250px]" src="../assets/img/apple.png" alt="">
                         <button class="w-fit mb-2 rounded-full hover:shadow-lg shadow-gray-600/40"><img
-                                class="w-[40px] h-[40px]" src="../img/basket.png" alt=""></button>
+                                class="w-[40px] h-[40px]" src="../assets/img/basket.png" alt=""></button>
                     </div>
                     <p class="text-2xl font-bold">Name item</p>
                     <div class="flex flex-row items-center justify-center my-3 gap-[15px]">
-                        <img class="w-[24px] h-[24px]" src="../img/star_1.png" alt="">
-                        <img class="w-[24px] h-[24px]" src="../img/star_1.png" alt="">
-                        <img class="w-[24px] h-[24px]" src="../img/star_1.png" alt="">
+                        <img class="w-[24px] h-[24px]" src="../assets/img/star_1.png" alt="">
+                        <img class="w-[24px] h-[24px]" src="../assets/img/star_1.png" alt="">
+                        <img class="w-[24px] h-[24px]" src="../assets/img/star_1.png" alt="">
                     </div>
                     <div class="w-full flex flex-row items-center justify-center text-2xl gap-[20px] font-bold">
                         <p class="line-through text-center text-emerald-600">$ <span>10.00</span></p>
@@ -40,15 +40,15 @@ export default {
 
                 <div class="w-fit text-center flex flex-col">
                     <div class="w-full h-[275px] border border-black mb-6">
-                        <img class="w-[300px] h-[250px]" src="../img/Avocado.jpg" alt="">
+                        <img class="w-[300px] h-[250px]" src="../assets/img/Avocado.jpg" alt="">
                         <button class="w-fit mb-2 rounded-full hover:shadow-lg shadow-gray-600/40"><img
-                                class="w-[40px] h-[40px]" src="../img/basket.png" alt=""></button>
+                                class="w-[40px] h-[40px]" src="../assets/img/basket.png" alt=""></button>
                     </div>
                     <p class="text-2xl font-bold">Name item</p>
                     <div class="flex flex-row items-center justify-center my-3 gap-[15px]">
-                        <img class="w-[24px] h-[24px]" src="../img/star_1.png" alt="">
-                        <img class="w-[24px] h-[24px]" src="../img/star_1.png" alt="">
-                        <img class="w-[24px] h-[24px]" src="../img/star_1.png" alt="">
+                        <img class="w-[24px] h-[24px]" src="../assets/img/star_1.png" alt="">
+                        <img class="w-[24px] h-[24px]" src="../assets/img/star_1.png" alt="">
+                        <img class="w-[24px] h-[24px]" src="../assets/img/star_1.png" alt="">
                     </div>
                     <div class="w-full flex flex-row items-center justify-center text-2xl gap-[20px] font-bold">
                         <p class="line-through text-center text-emerald-600">$ <span>10.00</span></p>
@@ -58,15 +58,15 @@ export default {
 
                 <div class="w-fit text-center flex flex-col">
                     <div class="w-full h-[275px] border border-black mb-6">
-                        <img class="w-[300px] h-[250px]" src="../img/orange_.png" alt="">
+                        <img class="w-[300px] h-[250px]" src="../assets/img/orange_.png" alt="">
                         <button class="w-fit mb-2 rounded-full hover:shadow-lg shadow-gray-600/40"><img
-                                class="w-[40px] h-[40px]" src="../img/basket.png" alt=""></button>
+                                class="w-[40px] h-[40px]" src="../assets/img/basket.png" alt=""></button>
                     </div>
                     <p class="text-2xl font-bold">Name item</p>
                     <div class="flex flex-row items-center justify-center my-3 gap-[15px]">
-                        <img class="w-[24px] h-[24px]" src="../img/star_1.png" alt="">
-                        <img class="w-[24px] h-[24px]" src="../img/star_1.png" alt="">
-                        <img class="w-[24px] h-[24px]" src="../img/star_1.png" alt="">
+                        <img class="w-[24px] h-[24px]" src="../assets/img/star_1.png" alt="">
+                        <img class="w-[24px] h-[24px]" src="../assets/img/star_1.png" alt="">
+                        <img class="w-[24px] h-[24px]" src="../assets/img/star_1.png" alt="">
                     </div>
                     <div class="w-full flex flex-row items-center justify-center text-2xl gap-[20px] font-bold">
                         <p class="line-through text-center text-emerald-600">$ <span>10.00</span></p>
@@ -76,48 +76,48 @@ export default {
 
                 <div class="w-[306px] h-[100px] flex flex-row">
                     <img class="w-[120px] h-[100px] border border-black"
-                        src="../img/vav.png" alt="">
+                        src="../assets/img/vav.png" alt="">
 
                     <div class="w-full flex flex-col ml-[20px]">
                         <p class="text-xl font-bold mb-2">Name item</p>
                         <p class="text-base mb-2">Price: <span class="text-orange-600">$ 15.00</span></p>
                         <div class="flex flex-row gap-[10px] gap-3 ml-2">
                             <button class="rounded-full hover:shadow-lg shadow-gray-600/40"><img class="w-[32px] h-[32px]"
-                                    src="../img/basket.png" alt=""></button>
+                                    src="../assets/img/basket.png" alt=""></button>
                             <button class="rounded-full hover:shadow-lg shadow-gray-600/40"><img class="w-[32px] h-[32px]"
-                                    src="../img/heart.png" alt=""></button>
+                                    src="../assets/img/heart.png" alt=""></button>
                         </div>
                     </div>
                 </div>
 
                 <div class="w-[306px] h-[100px] flex flex-row">
                     <img class="w-[120px] h-[100px] border border-black"
-                        src="../img/carrot.png" alt="">
+                        src="../assets/img/carrot.png" alt="">
 
                     <div class="w-full flex flex-col ml-[20px]">
                         <p class="text-xl font-bold mb-2">Name item</p>
                         <p class="text-base mb-2">Price: <span class="text-orange-600">$ 15.00</span></p>
                         <div class="flex flex-row gap-[10px] gap-3 ml-2">
                             <button class="rounded-full hover:shadow-lg shadow-gray-600/40"><img class="w-[32px] h-[32px]"
-                                    src="../img/basket.png" alt=""></button>
+                                    src="../assets/img/basket.png" alt=""></button>
                             <button class="rounded-full hover:shadow-lg shadow-gray-600/40"><img class="w-[32px] h-[32px]"
-                                    src="../img/heart.png" alt=""></button>
+                                    src="../assets/img/heart.png" alt=""></button>
                         </div>
                     </div>
                 </div>
 
                 <div class="w-[306px] h-[100px] flex flex-row">
                     <img class="w-[120px] h-[100px] border border-black"
-                        src="../img/cucumber.png" alt="">
+                        src="../assets/img/cucumber.png" alt="">
 
                     <div class="w-full flex flex-col ml-[20px]">
                         <p class="text-xl font-bold mb-2">Name item</p>
                         <p class="text-base mb-2">Price: <span class="text-orange-600">$ 15.00</span></p>
                         <div class="flex flex-row gap-[10px] gap-3 ml-2">
                             <button class="rounded-full hover:shadow-lg shadow-gray-600/40"><img class="w-[32px] h-[32px]"
-                                    src="../img/basket.png" alt=""></button>
+                                    src="../assets/img/basket.png" alt=""></button>
                             <button class="rounded-full hover:shadow-lg shadow-gray-600/40"><img class="w-[32px] h-[32px]"
-                                    src="../img/heart.png" alt=""></button>
+                                    src="../assets/img/heart.png" alt=""></button>
                         </div>
                     </div>
                 </div>

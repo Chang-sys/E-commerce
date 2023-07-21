@@ -39,7 +39,7 @@
                     class="hover:text-green-500 hover:duration-300 w-[50px] h-[50px] flex justify-center items-center font-bold">Contact</a>
             </div>
 
-            <img src="../img/woman.png" class="w-[600px] h-[580px] absolute right-1 z-10">
+            <img src="../assets/img/woman.png" class="w-[600px] h-[580px] absolute right-1 z-10">
         </div>
 
         <div class="h-[480px] bg-gradient-to-r from-orange-600 to-orange-300 p-5 relative z-0">

@@ -13,7 +13,7 @@
                 </div>
 
                 <div class="w-fit h-fit">
-                    <img src="../img/grape.png" class="w-[350px] h-[220px]">
+                    <img src="../assets/img/grape.png" class="w-[350px] h-[220px]">
                 </div>
             </div>
 
@@ -27,7 +27,7 @@
                 </div>
 
                 <div class="w-fit h-fit mr-12">
-                    <img src="../img/orange.png" class="w-[250px] h-[250px]">
+                    <img src="../assets/img/orange.png" class="w-[250px] h-[250px]">
                 </div>
             </div>
 
@@ -41,7 +41,7 @@
                 </div>
 
                 <div class="w-fit h-fit mr-12">
-                    <img src="../img/berry.png" class="w-[220px] h-[220px]">
+                    <img src="../assets/img/berry.png" class="w-[220px] h-[220px]">
                 </div>
             </div>
             
@@ -49,7 +49,7 @@
             <div
                 class="top-[950px] left-[695px] w-[32%] h-[250px] bg-[#F8EFDE] mt-5 border-2 border-Orange-200 rounded-br-[120px] flex flex-row itemsi-center justify-between absolute">
                 <div class="w-fit h-fit">
-                    <img src="../img/chilliPapper.png" class="w-[400px] h-[230px]">
+                    <img src="../assets/img/chilliPapper.png" class="w-[400px] h-[230px]">
                 </div>
                 
                 <div class="w-[70%] ml-3 mt-28">

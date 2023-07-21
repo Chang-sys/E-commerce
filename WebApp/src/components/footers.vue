@@ -17,17 +17,17 @@ export default {
             </p>
 
             <div class="flex flex-row text-lg font-medium">
-                <img class="w-[42px] h-[42px]" src="../img/home.png" alt="">
+                <img class="w-[42px] h-[42px]" src="../assets/img/home.png" alt="">
                 <p class="mt-2.5 ml-3">Home address</p>
             </div>
 
             <div class="flex flex-row text-lg font-medium">
-                <img class="w-[42px] h-[42px]" src="../img/phone.png" alt="">
+                <img class="w-[42px] h-[42px]" src="../assets/img/phone.png" alt="">
                 <p class="mt-2.5 ml-3">+0 123343434</p>
             </div>
 
             <div class="flex flex-row text-lg font-medium">
-                <img class="w-[42px] h-[42px]" src="../img/mail.png" alt="">
+                <img class="w-[42px] h-[42px]" src="../assets/img/mail.png" alt="">
                 <p class="mt-2.5 ml-3">somone@lala.com</p>
             </div>
         </div>
@@ -70,19 +70,19 @@ export default {
                     <h1 class="text-3xl text-orange-500 font-bold">Follow Us</h1>
                     <div class="w-[120px] h-1 bg-orange-500 my-1"></div>
                     <a :href="'https://www.facebook.com/'" class="flex flex-row text-lg font-medium mt-3">
-                        <img class="w-[56px] h-[56px]" src="../img/facebook.png" alt="">
+                        <img class="w-[56px] h-[56px]" src="../assets/img/facebook.png" alt="">
                         <p class="mt-3 ml-3 hover:underline hover:text-orange-500 hover:underline-offset-2">Facebook</p>
                     </a>
                     <a :href="'https://www.twitter.com/login'" class="flex flex-row text-lg font-medium mt-3">
-                        <img class="w-[56px] h-[56px]" src="../img/twitter.png" alt="">
+                        <img class="w-[56px] h-[56px]" src="../assets/img/twitter.png" alt="">
                         <p class="mt-3 ml-3 hover:underline hover:text-orange-500 hover:underline-offset-2">Twitter</p>
                     </a>
                     <a :href="'https://www.instagram.com/accounts/login/'" class="flex flex-row text-lg font-medium mt-3">
-                        <img class="w-[56px] h-[56px]" src="../img/instagram.png" alt="">
+                        <img class="w-[56px] h-[56px]" src="../assets/img/instagram.png" alt="">
                         <p class="mt-3 ml-3 hover:underline hover:text-orange-500 hover:underline-offset-8">Instagram</p>
                     </a>
                     <a :href="'https://www.youtube.com/'" class="flex flex-row text-lg font-medium mt-3">
-                        <img class="w-[56px] h-[56px]" src="../img/youtube.png" alt="">
+                        <img class="w-[56px] h-[56px]" src="../assets/img/youtube.png" alt="">
                         <p class="mt-3 ml-3 hover:underline hover:text-orange-500 hover:underline-offset-2">Youtube</p>
                     </a>
                 </div>

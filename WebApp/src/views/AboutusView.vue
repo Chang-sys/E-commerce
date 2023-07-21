@@ -1,6 +1,6 @@
 <template>
     <Headers />
-    <Aboutus />>
+    <Aboutus />
     <Footers />
 </template>
 

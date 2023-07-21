@@ -19,7 +19,7 @@
                 </div>
 
                 <button class="w-full h-fit m-2 bg-[#319B77] flex flex-row text-center items-center p-1 rounded">
-                    <img src="../img/shopping-bag.png" class="ml-3 mr-[50px]">
+                    <img src="../assets/img/shopping-bag.png" class="ml-3 mr-[50px]">
                     <p class="text-2xl ml-1 text-white font-bold">Add To Cart</p>
                 </button>
             </div>
@@ -28,7 +28,7 @@
 
     <div class="w-full h-fit grid grid-cols-4 gap-6 pl-6">
         <div class="w-11/12 border-2 border-black p-2 flex flex-col items-center justify-center">
-            <img src="../img/waterMelon.png" alt="WaterMelon" class="h-[231px]">
+            <img src="../assets/img/waterMelon.png" alt="WaterMelon" class="h-[231px]">
             <h1 class="text-2xl font-bold mb-2">Water Melon</h1>
             <p class="text-lg text-[#808080] font-bold mb-1">Weight: 1 kg</p>
             <p class="text-xl text-[#319B77] font-bold mb-1">$ 20.00</p>
@@ -40,13 +40,13 @@
             </div>
 
             <button class="w-full h-fit m-2 bg-[#319B77] flex flex-row text-center items-center p-1 rounded">
-                <img class="ml-3" src="../img/shopping-bag.png">
+                <img class="ml-3" src="../assets/img/shopping-bag.png">
                 <p class="text-2xl ml-12 text-white font-bold">Add To Cart</p>
             </button>
         </div>
 
         <div class="w-11/12 border-2 border-black p-2 flex flex-col items-center justify-center">
-            <img src="../img/baba.png" alt="WaterMelon" class="h-[231px]">
+            <img src="../assets/img/baba.png" alt="WaterMelon" class="h-[231px]">
             <h1 class="text-2xl font-bold mb-2">Water Melon</h1>
             <p class="text-lg text-[#808080] font-bold mb-1">Weight: 1 kg</p>
             <p class="text-xl text-[#319B77] font-bold mb-1">$ 20.00</p>
@@ -58,13 +58,13 @@
             </div>
 
             <button class="w-full h-fit m-2 bg-[#319B77] flex flex-row text-center items-center p-1 rounded">
-                <img class="ml-3" src="../img/shopping-bag.png">
+                <img class="ml-3" src="../assets/img/shopping-bag.png">
                 <p class="text-2xl ml-12 text-white font-bold">Add To Cart</p>
             </button>
         </div>
 
         <div class="w-11/12 border-2 border-black p-2 flex flex-col items-center justify-center">
-            <img src="../img/apple.png" alt="WaterMelon" class="h-[231px]">
+            <img src="../assets/img/apple.png" alt="WaterMelon" class="h-[231px]">
             <h1 class="text-2xl font-bold mb-2">Water Melon</h1>
             <p class="text-lg text-[#808080] font-bold mb-1">Weight: 1 kg</p>
             <p class="text-xl text-[#319B77] font-bold mb-1">$ 20.00</p>
@@ -76,13 +76,13 @@
             </div>
 
             <button class="w-full h-fit m-2 bg-[#319B77] flex flex-row text-center items-center p-1 rounded">
-                <img class="ml-3" src="../img/shopping-bag.png">
+                <img class="ml-3" src="../assets/img/shopping-bag.png">
                 <p class="text-2xl ml-12 text-white font-bold">Add To Cart</p>
             </button>
         </div>
 
         <div class="w-11/12 border-2 border-black p-2 flex flex-col items-center justify-center">
-            <img src="../img/banana.png" alt="WaterMelon" class="h-[231px]">
+            <img src="../assets/img/banana.png" alt="WaterMelon" class="h-[231px]">
             <h1 class="text-2xl font-bold mb-2">Water Melon</h1>
             <p class="text-lg text-[#808080] font-bold mb-1">Weight: 1 kg</p>
             <p class="text-xl text-[#319B77] font-bold mb-1">$ 20.00</p>
@@ -94,13 +94,13 @@
             </div>
 
             <button class="w-full h-fit m-2 bg-[#319B77] flex flex-row text-center items-center p-1 rounded">
-                <img class="ml-3" src="../img/shopping-bag.png">
+                <img class="ml-3" src="../assets/img/shopping-bag.png">
                 <p class="text-2xl ml-12 text-white font-bold">Add To Cart</p>
             </button>
         </div>
 
         <div class="w-11/12 border-2 border-black p-2 flex flex-col items-center justify-center">
-            <img src="../img/carrot.png" alt="WaterMelon" class="h-[231px]">
+            <img src="../assets/img/carrot.png" alt="WaterMelon" class="h-[231px]">
             <h1 class="text-2xl font-bold mb-2">Water Melon</h1>
             <p class="text-lg text-[#808080] font-bold mb-1">Weight: 1 kg</p>
             <p class="text-xl text-[#319B77] font-bold mb-1">$ 20.00</p>
@@ -112,13 +112,13 @@
             </div>
 
             <button class="w-full h-fit m-2 bg-[#319B77] flex flex-row text-center items-center p-1 rounded">
-                <img class="ml-3" src="../img/shopping-bag.png">
+                <img class="ml-3" src="../assets/img/shopping-bag.png">
                 <p class="text-2xl ml-12 text-white font-bold">Add To Cart</p>
             </button>
         </div>
 
         <div class="w-11/12 border-2 border-black p-2 flex flex-col items-center justify-center">
-            <img src="../img/cucumber.png" alt="WaterMelon" class="h-[231px]">
+            <img src="../assets/img/cucumber.png" alt="WaterMelon" class="h-[231px]">
             <h1 class="text-2xl font-bold mb-2">Water Melon</h1>
             <p class="text-lg text-[#808080] font-bold mb-1">Weight: 1 kg</p>
             <p class="text-xl text-[#319B77] font-bold mb-1">$ 20.00</p>
@@ -130,13 +130,13 @@
             </div>
 
             <button class="w-full h-fit m-2 bg-[#319B77] flex flex-row text-center items-center p-1 rounded">
-                <img class="ml-3" src="../img/shopping-bag.png">
+                <img class="ml-3" src="../assets/img/shopping-bag.png">
                 <p class="text-2xl ml-12 text-white font-bold">Add To Cart</p>
             </button>
         </div>
 
         <div class="w-11/12 border-2 border-black p-2 flex flex-col items-center justify-center">
-            <img src="../img/tomato.png" alt="WaterMelon" class="h-[231px]">
+            <img src="../assets/img/tomato.png" alt="WaterMelon" class="h-[231px]">
             <h1 class="text-2xl font-bold mb-2">Water Melon</h1>
             <p class="text-lg text-[#808080] font-bold mb-1">Weight: 1 kg</p>
             <p class="text-xl text-[#319B77] font-bold mb-1">$ 20.00</p>
@@ -148,13 +148,13 @@
             </div>
 
             <button class="w-full h-fit m-2 bg-[#319B77] flex flex-row text-center items-center p-1 rounded">
-                <img class="ml-3" src="../img/shopping-bag.png">
+                <img class="ml-3" src="../assets/img/shopping-bag.png">
                 <p class="text-2xl ml-12 text-white font-bold">Add To Cart</p>
             </button>
         </div>
 
         <div class="w-11/12 border-2 border-black p-2 flex flex-col items-center justify-center">
-            <img src="../img/orange_.png" alt="WaterMelon" class="h-[231px]">
+            <img src="../assets/img/orange_.png" alt="WaterMelon" class="h-[231px]">
             <h1 class="text-2xl font-bold mb-2">Water Melon</h1>
             <p class="text-lg text-[#808080] font-bold mb-1">Weight: 1 kg</p>
             <p class="text-xl text-[#319B77] font-bold mb-1">$ 20.00</p>
@@ -166,13 +166,13 @@
             </div>
 
             <button class="w-full h-fit m-2 bg-[#319B77] flex flex-row text-center items-center p-1 rounded">
-                <img class="ml-3" src="../img/shopping-bag.png">
+                <img class="ml-3" src="../assets/img/shopping-bag.png">
                 <p class="text-2xl ml-12 text-white font-bold">Add To Cart</p>
             </button>
         </div>
 
         <div class="w-11/12 border-2 border-black p-2 flex flex-col items-center justify-center">
-            <img src="../img/grape_1.png" alt="WaterMelon" class="h-[231px]">
+            <img src="../assets/img/grape_1.png" alt="WaterMelon" class="h-[231px]">
             <h1 class="text-2xl font-bold mb-2">Water Melon</h1>
             <p class="text-lg text-[#808080] font-bold mb-1">Weight: 1 kg</p>
             <p class="text-xl text-[#319B77] font-bold mb-1">$ 20.00</p>
@@ -184,13 +184,13 @@
             </div>
 
             <button class="w-full h-fit m-2 bg-[#319B77] flex flex-row text-center items-center p-1 rounded">
-                <img class="ml-3" src="../img/shopping-bag.png">
+                <img class="ml-3" src="../assets/img/shopping-bag.png">
                 <p class="text-2xl ml-12 text-white font-bold">Add To Cart</p>
             </button>
         </div>
 
         <div class="w-11/12 border-2 border-black p-2 flex flex-col items-center justify-center">
-            <img src="../img/grape.png" alt="WaterMelon" class="h-[231px]">
+            <img src="../assets/img/grape.png" alt="WaterMelon" class="h-[231px]">
             <h1 class="text-2xl font-bold mb-2">Water Melon</h1>
             <p class="text-lg text-[#808080] font-bold mb-1">Weight: 1 kg</p>
             <p class="text-xl text-[#319B77] font-bold mb-1">$ 20.00</p>
@@ -202,13 +202,13 @@
             </div>
 
             <button class="w-full h-fit m-2 bg-[#319B77] flex flex-row text-center items-center p-1 rounded">
-                <img class="ml-3" src="../img/shopping-bag.png">
+                <img class="ml-3" src="../assets/img/shopping-bag.png">
                 <p class="text-2xl ml-12 text-white font-bold">Add To Cart</p>
             </button>
         </div>
 
         <div class="w-11/12 border-2 border-black p-2 flex flex-col items-center justify-center">
-            <img src="../img/kiwi.png" alt="WaterMelon" class="h-[231px]">
+            <img src="../assets/img/kiwi.png" alt="WaterMelon" class="h-[231px]">
             <h1 class="text-2xl font-bold mb-2">Water Melon</h1>
             <p class="text-lg text-[#808080] font-bold mb-1">Weight: 1 kg</p>
             <p class="text-xl text-[#319B77] font-bold mb-1">$ 20.00</p>
@@ -220,13 +220,13 @@
             </div>
 
             <button class="w-full h-fit m-2 bg-[#319B77] flex flex-row text-center items-center p-1 rounded">
-                <img class="ml-3" src="../img/shopping-bag.png">
+                <img class="ml-3" src="../assets/img/shopping-bag.png">
                 <p class="text-2xl ml-12 text-white font-bold">Add To Cart</p>
             </button>
         </div>
 
         <div class="w-11/12 border-2 border-black p-2 flex flex-col items-center justify-center">
-            <img src="../img/berry.png" alt="WaterMelon" class="h-[231px]">
+            <img src="../assets/img/berry.png" alt="WaterMelon" class="h-[231px]">
             <h1 class="text-2xl font-bold mb-2">Water Melon</h1>
             <p class="text-lg text-[#808080] font-bold mb-1">Weight: 1 kg</p>
             <p class="text-xl text-[#319B77] font-bold mb-1">$ 20.00</p>
@@ -238,7 +238,7 @@
             </div>
 
             <button class="w-full h-fit m-2 bg-[#319B77] flex flex-row text-center items-center p-1 rounded">
-                <img class="ml-3" src="../img/shopping-bag.png">
+                <img class="ml-3" src="../assets/img/shopping-bag.png">
                 <p class="text-2xl ml-12 text-white font-bold">Add To Cart</p>
             </button>
         </div>
