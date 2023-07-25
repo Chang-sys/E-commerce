@@ -5,6 +5,9 @@ export default {
         return {
             date: '',
             cvc: '',
+            showInput: false,
+            couponCode: "",
+            storedCoupon: "",
         };
     },
     methods: {
@@ -28,6 +31,12 @@ export default {
 
             // Concatenate the formatted date
             this.date = `${month}/${year}`;
+        },
+        addCoupon() {
+            // Store the coupon code
+            this.storedCoupon = this.couponCode;
+            this.couponCode = ""; // Reset the input field
+            this.showInput = false;
         },
     },
     async mounted() { },
@@ -151,6 +160,7 @@ export default {
                                 class="w-full ml-3 text-base indent-2.5 text-semibold  text-Gray_100 bg-transparent appearance-none dark:text-black dark:focus:border-black focus:outline-none focus:ring-0 focus:border-black peer"
                                 placeholder="Post Code" required />
                         </div>
+
                     </div>
                 </form>
 
@@ -196,10 +206,26 @@ export default {
                                 placeholder="MM/YYYY" required />
                         </div>
                         <div
-                            class="w-32 mr-36 flex flex-row z-0 w-full mb-3 py-2.5 group bg-LightGray hover:border-2 hover:border-black rounded-xl">
+                            class="w-32 mr-36 flex flex-row z-0 mb-6 py-2.5 px-2.5 pr-3.5 group bg-LightGray hover:border-2 hover:border-black rounded-xl">
                             <input v-model="cvc" @input="validatecvc" type="text"
                                 class="w-full text-lg text-center text-semibold text-Gray_100 bg-transparent appearance-none dark:text-black dark:focus:border-black focus:outline-none focus:ring-0 focus:border-black peer"
                                 placeholder="CVC" required />
+                        </div>
+                    </div>
+
+                    <div class="flex flex-row justify-center items-center text-Gray_100 mb-6 rounded-xl p-3 pl-3.5 font-bold">
+                        <button v-if="!showInput" @click="showInput = true"
+                            class="w-11/12 border-2 border-Gray_100 hover:border-2 hover:bg-orange-500 hover:text-white font-bold py-2 px-4 rounded-lg">
+                            Add Promo code
+                        </button>
+
+                        <div v-if="showInput" class="flex">
+                            <input v-model="couponCode" type="text" placeholder="Enter coupon code"
+                                class="border-2 border-gray-400 p-2 rounded-l-lg indent-1 text-black" />
+                            <button @click="addCoupon"
+                                class="border-2 border-Gray_100 hover:bg-orange-500 hover:text-white font-bold py-2 px-4  rounded-r-lg">
+                                Ok
+                            </button>
                         </div>
                     </div>
                 </form>
